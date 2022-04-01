@@ -20,6 +20,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:strugglinglee/strugglinglee.github.io.git main
 
 # 如果发布到 https://strugglinglee.github.io/<REPO>
-git push -f git@github.com:strugglinglee/vuepress-starter.git main:gh-pages
+git push -f git@github.com:strugglinglee/vuepress-starter.git master:gh-pages
+
 
 cd -
