@@ -16,10 +16,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# 如果发布到 https://strugglinglee.github.io
+# git push -f git@github.com:strugglinglee/strugglinglee.github.io.git main
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+# 如果发布到 https://strugglinglee.github.io/<REPO>
+git push -f git@github.com:strugglinglee/vuepress-starter.git main:gh-pages
 
 cd -
