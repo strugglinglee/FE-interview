@@ -1,6 +1,7 @@
 module.exports = {
-  title: "Hello VuePress",
-  description: "Just playing around",
+  title: 'Hello VuePress',
+  description: 'Just playing around',
+  base: '/vuepress-starter/',
   configureWebpack: {
     resolve: {
       alias: {
