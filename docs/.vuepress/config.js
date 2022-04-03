@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Hello VuePress',
+  title: '前端面试字典',
   description: 'Just playing around',
   base: '/vuepress-starter/',
   configureWebpack: {
@@ -21,32 +21,33 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: 'hihihi的博客',
+        text: '了解更多',
         items: [
-          { text: 'Github', link: 'https://github.com/mqyqingfeng' },
+          { text: 'Github', link: 'https://github.com/strugglinglee' },
+          {
+            text: '博客',
+            link: 'https://blog.strugglinglee.cn/',
+          },
           {
             text: '掘金',
-            link: 'https://juejin.cn/user/712139234359182/posts',
+            link: 'https://juejin.cn/user/1028798615654669',
           },
         ],
       },
     ],
     sidebar: [
       {
-        title: '欢迎学习',
-        path: '/foo',
-        collapsable: false,
-        children: [{ title: '学前必读', path: '/foo/one' }],
+        title: 'JS基础',
+        path: '/JavaScript',
+        collapsable: true,
+        children: [{ title: 'JS基础题目', path: '/JavaScript/base' }],
       },
-      {
-        title: '基础学习',
-        path: '/bar',
-        collapsable: false,
-        children: [
-          { title: '条件类型', path: '/bar/four' },
-          { title: '泛型', path: '/bar/three' },
-        ],
-      },
+      // {
+      //   title: 'ES6',
+      //   path: '/ES6',
+      //   collapsable: true,
+      //   children: [],
+      // },
     ],
   },
 };
