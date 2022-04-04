@@ -38,16 +38,28 @@ module.exports = {
     sidebar: [
       {
         title: 'JS基础',
-        path: '/JavaScript',
+        // path: '/JavaScript',
         collapsable: true,
         children: [{ title: 'JS基础题目', path: '/JavaScript/base' }],
       },
-      // {
-      //   title: 'ES6',
-      //   path: '/ES6',
-      //   collapsable: true,
-      //   children: [],
-      // },
+      {
+        title: 'VUE相关',
+        // path: '/vue',
+        collapsable: true,
+        children: [
+          { title: 'vue基础', path: '/vue/base' },
+          { title: 'vuex篇', path: '/vue/vuex' },
+          { title: 'vue-router篇', path: '/vue/router' },
+          { title: '生命周期篇', path: '/vue/life' },
+          { title: '进阶篇', path: '/vue/top' },
+        ],
+      },
+      {
+        title: 'VUE3相关',
+        // path: '/vue3',
+        // collapsable: true,
+        children: [{ title: 'vue3响应式', path: '/vue3/base' }],
+      },
     ],
   },
 };
