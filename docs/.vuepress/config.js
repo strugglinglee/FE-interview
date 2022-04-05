@@ -40,7 +40,16 @@ module.exports = {
         title: 'JS基础',
         // path: '/JavaScript',
         collapsable: true,
-        children: [{ title: 'JS基础题目', path: '/JavaScript/base' }],
+        children: [{ title: 'JS常规问题', path: '/JavaScript/base' }],
+      },
+      {
+        title: 'css基础',
+        // path: '/JavaScript',
+        collapsable: true,
+        children: [
+          { title: 'CSS常规问题', path: '/CSS/base' },
+          { title: 'css3与html5', path: '/CSS/css3' },
+        ],
       },
       {
         title: 'VUE相关',
@@ -57,7 +66,7 @@ module.exports = {
       {
         title: 'VUE3相关',
         // path: '/vue3',
-        // collapsable: true,
+        collapsable: true,
         children: [{ title: 'vue3响应式', path: '/vue3/base' }],
       },
     ],
