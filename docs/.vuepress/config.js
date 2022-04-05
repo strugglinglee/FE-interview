@@ -40,11 +40,21 @@ module.exports = {
         title: 'JS基础',
         // path: '/JavaScript',
         collapsable: true,
-        children: [{ title: 'JS常规问题', path: '/JavaScript/base' }],
+        children: [
+          { title: 'JS常规问题', path: '/JavaScript/base' },
+          { title: 'JS重点考查内容', path: '/JavaScript/important' },
+          { title: '数组相关', path: '/JavaScript/array' },
+          { title: '对象相关', path: '/JavaScript/object' },
+          { title: '正则相关', path: '/JavaScript/reg' },
+        ],
       },
       {
-        title: 'css基础',
-        // path: '/JavaScript',
+        title: 'ES6相关',
+        collapsable: true,
+        children: [{ title: 'ES6常规问题', path: '/ES6/base' }],
+      },
+      {
+        title: 'CSS基础',
         collapsable: true,
         children: [
           { title: 'CSS常规问题', path: '/CSS/base' },
@@ -53,7 +63,6 @@ module.exports = {
       },
       {
         title: 'VUE相关',
-        // path: '/vue',
         collapsable: true,
         children: [
           { title: 'vue基础', path: '/vue/base' },
@@ -65,15 +74,21 @@ module.exports = {
       },
       {
         title: 'VUE3相关',
-        // path: '/vue3',
         collapsable: true,
         children: [{ title: 'vue3响应式', path: '/vue3/base' }],
       },
       {
         title: '性能优化',
-        // path: '/vue3',
         collapsable: true,
-        children: [{ title: '性能优化基础', path: '/improve/base' }],
+        children: [
+          { title: '性能优化基础', path: '/improve/base' },
+          { title: '防抖与节流', path: '/improve/throttle' },
+        ],
+      },
+      {
+        title: '业务相关问题',
+        collapsable: true,
+        children: [{ title: '业务相关问题', path: '/business/base' }],
       },
     ],
   },
