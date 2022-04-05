@@ -69,6 +69,12 @@ module.exports = {
         collapsable: true,
         children: [{ title: 'vue3响应式', path: '/vue3/base' }],
       },
+      {
+        title: '性能优化',
+        // path: '/vue3',
+        collapsable: true,
+        children: [{ title: '性能优化基础', path: '/improve/base' }],
+      },
     ],
   },
 };
