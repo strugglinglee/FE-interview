@@ -1,7 +1,7 @@
 module.exports = {
   title: '前端面试字典',
   description: 'Just playing around',
-  base: '/vuepress-starter/',
+  base: '/FE-interview/',
   configureWebpack: {
     resolve: {
       alias: {
@@ -70,12 +70,8 @@ module.exports = {
           { title: 'vue-router篇', path: '/vue/router' },
           { title: '生命周期篇', path: '/vue/life' },
           { title: '进阶篇', path: '/vue/top' },
+          { title: 'vue3响应式', path: '/vue/vue3' },
         ],
-      },
-      {
-        title: 'VUE3相关',
-        collapsable: true,
-        children: [{ title: 'vue3响应式', path: '/vue3/base' }],
       },
       {
         title: '性能优化',
