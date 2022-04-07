@@ -82,6 +82,31 @@ module.exports = {
         ],
       },
       {
+        title: 'CANVAS相关',
+        collapsable: true,
+        children: [{ title: 'CANVAS基础', path: '/canvas/base' }],
+      },
+      {
+        title: 'node相关',
+        collapsable: true,
+        children: [{ title: 'koa', path: '/node/koa' }],
+      },
+      {
+        title: 'webpack相关',
+        collapsable: true,
+        children: [{ title: 'webpack基础', path: '/webpack/base' }],
+      },
+      {
+        title: 'vite相关',
+        collapsable: true,
+        children: [{ title: 'vite基础', path: '/vite/base' }],
+      },
+      {
+        title: 'http相关',
+        collapsable: true,
+        children: [{ title: 'http基础', path: '/http/base' }],
+      },
+      {
         title: '业务相关问题',
         collapsable: true,
         children: [{ title: '业务相关问题', path: '/business/base' }],
