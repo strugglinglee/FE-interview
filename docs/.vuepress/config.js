@@ -92,17 +92,17 @@ module.exports = {
         children: [{ title: 'koa', path: '/node/koa' }],
       },
       {
-        title: 'webpack系列',
+        title: 'Webpack系列',
         collapsable: true,
         children: [{ title: 'webpack基础', path: '/webpack/base' }],
       },
       {
-        title: 'vite系列',
+        title: 'Vite系列',
         collapsable: true,
         children: [{ title: 'vite基础', path: '/vite/base' }],
       },
       {
-        title: 'http系列',
+        title: 'HTTP系列',
         collapsable: true,
         children: [{ title: 'http基础', path: '/http/base' }],
       },
