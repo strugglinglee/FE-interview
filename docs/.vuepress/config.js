@@ -43,13 +43,13 @@ module.exports = {
         children: [
           { title: 'JS常规问题', path: '/JavaScript/base' },
           { title: 'JS重点考查内容', path: '/JavaScript/important' },
-          { title: '数组相关', path: '/JavaScript/array' },
-          { title: '对象相关', path: '/JavaScript/object' },
-          { title: '正则相关', path: '/JavaScript/reg' },
+          { title: '数组系列', path: '/JavaScript/array' },
+          { title: '对象系列', path: '/JavaScript/object' },
+          { title: '正则系列', path: '/JavaScript/reg' },
         ],
       },
       {
-        title: 'ES6相关',
+        title: 'ES6系列',
         collapsable: true,
         children: [{ title: 'ES6常规问题', path: '/ES6/base' }],
       },
@@ -62,7 +62,7 @@ module.exports = {
         ],
       },
       {
-        title: 'VUE相关',
+        title: 'VUE系列',
         collapsable: true,
         children: [
           { title: 'vue基础', path: '/vue/base' },
@@ -82,34 +82,34 @@ module.exports = {
         ],
       },
       {
-        title: 'CANVAS相关',
+        title: 'CANVAS系列',
         collapsable: true,
         children: [{ title: 'CANVAS基础', path: '/canvas/base' }],
       },
       {
-        title: 'node相关',
+        title: 'Node.js系列',
         collapsable: true,
         children: [{ title: 'koa', path: '/node/koa' }],
       },
       {
-        title: 'webpack相关',
+        title: 'webpack系列',
         collapsable: true,
         children: [{ title: 'webpack基础', path: '/webpack/base' }],
       },
       {
-        title: 'vite相关',
+        title: 'vite系列',
         collapsable: true,
         children: [{ title: 'vite基础', path: '/vite/base' }],
       },
       {
-        title: 'http相关',
+        title: 'http系列',
         collapsable: true,
         children: [{ title: 'http基础', path: '/http/base' }],
       },
       {
-        title: '业务相关问题',
+        title: '业务系列问题',
         collapsable: true,
-        children: [{ title: '业务相关问题', path: '/business/base' }],
+        children: [{ title: '业务系列问题', path: '/business/base' }],
       },
     ],
   },
